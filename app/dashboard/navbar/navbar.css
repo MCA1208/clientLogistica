@@ -1,0 +1,19 @@
+.bx {
+    color: blue;
+}
+
+.nav-link {
+    margin: 10px;
+    border-style: solid;
+    border-color: green;
+    border: solid;
+}
+
+.btn {
+    --bs-btn-padding-x: -0.25rem;
+}
+
+.bg-body-tertiary{
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+}
