@@ -19,7 +19,7 @@ import {
 import { LoadingButton } from "@mui/lab";
 import "../../globals.css";
 
-function page() {
+function Page() {
   const dataEspecialist = [
     {
       id: 1,
@@ -187,4 +187,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
