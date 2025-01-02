@@ -9,7 +9,7 @@ import { dictionary } from "../../constants/dictionary";
 import { Typography } from "@mui/material";
 import "../../globals.css";
 
-function page() {
+function Page() {
   const [country, setCountry] = useState();
   const columns = [
     { title: "Nombre", field: "name", with: 50 },
@@ -127,4 +127,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

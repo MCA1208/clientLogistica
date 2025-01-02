@@ -17,7 +17,7 @@ import DialogActions from "@mui/material/DialogActions";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 
-function page() {
+function Page() {
   const BootstrapDialog = styled(Dialog)(({ theme }) => ({
     "& .MuiDialogContent-root": {
       padding: theme.spacing(2),
@@ -619,4 +619,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

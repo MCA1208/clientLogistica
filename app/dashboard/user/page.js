@@ -14,7 +14,7 @@ import { alignProperty } from "@mui/material/styles/cssUtils";
 import { Placeholder } from "react-bootstrap";
 import usePlaceholder from "react-bootstrap/esm/usePlaceholder";
 
-function page() {
+function Page() {
   const [progress, setProgress] = useState(false);
 
   const columns = [
@@ -322,4 +322,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

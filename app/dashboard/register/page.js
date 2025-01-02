@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Swal from "sweetalert2";
 
-function registerPage() {
+function Page() {
   const router = useRouter();
 
   const [message, setMessage] = useState("");
@@ -191,4 +191,4 @@ function registerPage() {
   );
 }
 
-export default registerPage;
+export default Page;

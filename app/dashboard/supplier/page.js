@@ -9,7 +9,7 @@ import { Typography, Container, Select, MenuItem } from "@mui/material";
 import "../../globals.css";
 import Swal from "sweetalert2";
 
-function page() {
+function Page() {
   const [country, setCountry] = useState();
   const [province, setProvince] = useState();
   const [activity, setActivity] = useState();
@@ -443,4 +443,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

@@ -12,7 +12,7 @@ import { type } from "os";
 import { Password } from "@mui/icons-material";
 import { alignProperty } from "@mui/material/styles/cssUtils";
 
-function page() {
+function Page() {
   const [client, setClient] = useState();
   const [progress, setProgress] = useState(false);
 
@@ -344,4 +344,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
