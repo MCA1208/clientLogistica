@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { CircularProgress, Backdrop } from "@mui/material";
 import { auth } from "../services/auth";
 
-function page() {
+function Page() {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -126,4 +126,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
