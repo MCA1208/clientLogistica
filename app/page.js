@@ -23,7 +23,7 @@ function page() {
 
     console.log(requestOptions);
 
-    await fetch("http://localhost:8080/login", requestOptions)
+    await fetch(`${process.env.NEXT_PUBLIC_URL_API}/login`, requestOptions)
       .then((response) => response.json())
       .then((data) => {
         if (data.result.status == true) {
@@ -55,9 +55,7 @@ function page() {
       });
   };
 
-  useEffect(() => {
-    console.log(auht.auht());
-  }, []);
+  useEffect(() => {}, []);
 
   const showPassword = () => {
     setInputType(inputType === "password" ? "text" : "password");

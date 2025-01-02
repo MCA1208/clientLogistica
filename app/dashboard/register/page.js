@@ -82,7 +82,7 @@ function registerPage() {
 
     console.log(requestOptions);
 
-    fetch("http://localhost:8080/createusers", requestOptions)
+    fetch(`${process.env.NEXT_PUBLIC_URL_API}/createusers`, requestOptions)
       .then((response) => response.json())
       .then((data) => {
         if (data.result.status == true) {

@@ -36,7 +36,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand onClick={() => router.push("/dashboard/home")}>
-          <Image src={Logo} width={1000} height={1000} />{" "}
+          <Image src={Logo} width={50} height={50} />{" "}
           {/* <i className="bx bxs-user-rectangle bx-lg" /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

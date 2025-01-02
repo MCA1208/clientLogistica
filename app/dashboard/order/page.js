@@ -384,7 +384,7 @@ function page() {
 
   const handleGetOrder = async () => {
     const requestOptions = {
-      method: "POST",
+      method: "GET",
       headers: { "Content-Type": "application/json" },
     };
     await fetch(`${process.env.NEXT_PUBLIC_URL_API}/getorders`, requestOptions)
@@ -416,7 +416,7 @@ function page() {
   };
   const handleGetClientList = async () => {
     const requestOptions = {
-      method: "POST",
+      method: "GET",
       headers: { "Content-Type": "application/json" },
     };
     await fetch(`${process.env.NEXT_PUBLIC_URL_API}/getclient`, requestOptions)
@@ -449,7 +449,7 @@ function page() {
   };
   const handleGetStateOrderList = async () => {
     const requestOptions = {
-      method: "POST",
+      method: "GET",
       headers: { "Content-Type": "application/json" },
     };
     await fetch(

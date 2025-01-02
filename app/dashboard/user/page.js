@@ -91,7 +91,7 @@ function page() {
             console.log(error);
             Swal.fire({
               title: "Error!",
-              text: "error en la solicitud" + " " + data.result.data,
+              text: `error en la solicitud: ${error}`,
               icon: "error",
               confirmButtonText: "Cerrar",
               timer: 3000,
@@ -170,7 +170,7 @@ function page() {
         console.log(error);
         Swal.fire({
           title: "Error!",
-          text: "error en la solicitud" + " " + data.result.data,
+          text: `error en la solicitud: ${error}`,
           icon: "error",
           confirmButtonText: "Cerrar",
           timer: 3000,
@@ -219,7 +219,7 @@ function page() {
         console.log(error);
         Swal.fire({
           title: "Error!",
-          text: "error en la solicitud" + " " + data.result.data,
+          text: `error en la solicitud: ${error}`,
           icon: "error",
           confirmButtonText: "Cerrar",
           timer: 6000,
@@ -230,7 +230,7 @@ function page() {
 
   const handleGetUsers = async () => {
     const requestOptions = {
-      method: "POST",
+      method: "GET",
       headers: { "Content-Type": "application/json" },
     };
     await fetch(`${process.env.NEXT_PUBLIC_URL_API}/getusers`, requestOptions)
